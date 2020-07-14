@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int tab[5][5] = {{4, 2, 3, 6, 7}, {14, 12, 17, 15, 6}, {4, 27, 14, 17, 3}, {15, 12, 6, 81, 92}, {11, 3, 64, 21, 11}};
-    int klucz, pw, pk, kw, kk;
+    int klucz, pw, pk, kw, kk; // pw - poczatek wiersza, pk - poczatek kolumny, kw - koniec wiersza, kk - koniec kolumny
     int i = 0;
 
     cout << "Wpisz wartosc klucza wedlug ktorego chcesz przeszukac tablice: ";
